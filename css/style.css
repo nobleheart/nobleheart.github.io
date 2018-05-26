@@ -1,0 +1,489 @@
+body,
+h1,
+h2,
+h3, 
+h4,
+h5,
+h6,
+p {
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.btn-primary.active {
+	box-shadow: 0 0 .2rem .2rem rgba(0,123,255,.5);
+	font-weight: bold;
+}
+
+.btn-success.active {
+	box-shadow: 0 0 .2rem .2rem rgba(40,167,69,.5);
+	font-weight: bold;
+}
+
+/* colors of pages */
+.bg-transparent {
+	background-color: transparent;
+}
+
+.bg-blue {
+	background-color: #1da3f2;
+}
+
+.text-blue {
+	color: #09669D;
+}
+
+.bg-violet {
+	background-color: #9214f3;
+}
+
+.bg-orange {
+	background-color: #ff9411;
+}
+
+.bg-green {
+	background-color: #1a9f2a;
+}
+
+.bg-red {
+	background-color: #ff2d11;
+}
+
+.text-shadow-black {
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.home-card {
+	border: 0;
+	max-width: 34rem;
+}
+
+.home-border-top {
+	border-top: 1px solid rgba(29,163,242,0.2);
+}
+
+.home-border-bottom {
+	border-bottom: 1px solid rgba(29,163,242,0.2);
+}
+
+.profit-content {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card-deck .feature-card {
+	min-width: 250px;
+	max-width: 543px;
+	border: 0;
+	margin: 0;
+
+	padding-top: 110px;
+	background-position: center 20px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+.feature-card:hover {
+	background-color: rgba(29,163,242,0.04);
+}
+
+.feature-card h5 {
+	border-bottom: 1px solid rgba(29,163,242,0.2);
+	padding-bottom: 1rem;
+}
+
+.feature-non-profit {
+	background-image: url("../img/home/non-profit.png");
+}
+
+.feature-charity {
+	background-image: url("../img/home/charity.png");
+}
+
+.feature-low-risk {
+	background-image: url("../img/home/low-risk.png");
+}
+
+.feature-vantage {
+	background-image: url("../img/home/vantage.png");
+}
+
+.donate-card-header {
+	background-color: rgba(0,0,0,.02);
+	border-bottom: 1px solid rgba(0,0,0,.04);
+	padding: 0;
+}
+
+.donate-logo {
+	padding-left: 33px;
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.paypal-logo {
+	background-image: url("../img/donate/logos/paypal.svg");
+}
+
+.webmoney-logo {
+	background-image: url("../img/donate/logos/webmoney.png");
+}
+
+.yandex-money-logo {
+	background-image: url("../img/donate/logos/yandex-money.png");
+}
+
+.qiwi-logo {
+	background-image: url("../img/donate/logos/qiwi.png");
+}
+
+.bitcoin-logo {
+	background-image: url("../img/donate/logos/bitcoin.svg");
+}
+
+.ethereum-logo {
+	background-image: url("../img/donate/logos/ethereum.svg");
+}
+
+.bitcoin-cash-logo {
+	background-image: url("../img/donate/logos/bitcoin-cash.svg");
+}
+
+.litecoin-logo {
+	background-image: url("../img/donate/logos/litecoin.svg");
+}
+
+.ripple-logo {
+	background-image: url("../img/donate/logos/ripple.svg");
+}
+
+.eos-logo {
+	background-image: url("../img/donate/logos/eos.svg");
+}
+
+.webmoney-desktop {
+	display: none;
+}
+
+.webmoney-mobile {
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.header-bottom {
+	height: 620px;
+	
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.project-header {
+	padding-left: 30px;
+	background-image: url("../img/home/next.png");
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+
+.project-list {
+    background-color: rgba(0,0,0,0.5);
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+}
+
+.home {
+	background-image: url("../img/home/bg.jpg");
+}
+
+.home-about {
+	height: 450px;
+	background-color: #1da1f2;
+	background-image: url("../img/home/bg_home-about.jpg");
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.donate {
+	background-image: url("../img/donate/donate.jpg");
+}
+
+.about {
+	background-image: url("../img/about/bg-about.jpg");
+}
+
+.projects {
+	background-image: url("../img/projects/bg-projects.jpg");
+}
+
+.charity {
+	background-image: url("../img/charity/bg-charity.jpg");
+}
+
+.logo {
+	display: none;
+}
+
+.logo-mobile {
+	height: 42px;
+}
+
+.figure {
+	max-width: 650px;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.figure .card-body {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.feature {
+	padding-top: 60px;
+	background-size: 50px;
+	background-repeat: no-repeat;
+	background-position: top center;
+
+	text-align: center;
+}
+
+.profit {
+	background-image: url("../img/home/donation.png");
+}
+
+.dividends {
+	background-image: url("../img/home/growth.png");
+}
+
+.community {
+	background-image: url("../img/home/group.png");
+}
+
+.icon {
+	padding-left: 34px;
+	background-size: 24px;
+	background-repeat: no-repeat;
+	background-position: 0 center;
+
+}
+
+.problem {
+	background-image: url("../img/search-problem.png");
+}
+
+.wealth {
+	background-image: url("../img/money-bag.png");	
+}
+
+.question {
+	background-image: url("../img/doubt.png");
+}
+
+.nav-shadow {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.card-blue {
+	background-color: rgba(29,163,242,0.03);
+}
+
+@media (min-width: 576px) { 
+
+	.home {
+		height: 400px;
+		background-image: url("../img/home/bg576.jpg");
+	}
+
+	.home-about {
+		background-image: url("../img/home/bg_home-about576.jpg");
+		height: 400px;
+	}
+
+	.donate {
+		height: 400px;
+		background-image: url("../img/donate/donate576.jpg");
+	}
+
+	.about {
+		height: 400px;
+		background-image: url("../img/about/bg-about576.jpg");
+	}
+
+	.projects {
+		height: 400px;
+		background-image: url("../img/projects/bg-projects576.jpg");
+	}
+
+	.charity {
+		height: 400px;
+		background-image: url("../img/charity/bg-charity576.jpg");
+	}
+
+	.webmoney-desktop {
+		display: none;
+	}
+
+	.webmoney-mobile {
+		display: flex;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.logo {
+		display: block;
+		height: 42px;
+	}
+
+	.logo-mobile {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) { 
+
+	.home {
+		height: 400px;
+		background-image: url("../img/home/bg768.jpg");
+	}
+
+	.home-about {
+		background-image: url("../img/home/bg_home-about768.jpg");
+		height: 400px;
+	}
+
+	.profit-content {
+
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+
+	.donate {
+		height: 400px;
+		background-image: url("../img/donate/donate768.jpg");
+	}
+
+	.about {
+		height: 400px;
+		background-image: url("../img/about/bg-about768.jpg");
+	}
+
+	.projects {
+		height: 400px;
+		background-image: url("../img/projects/bg-projects768.jpg");
+	}
+
+	.charity {
+		height: 400px;
+		background-image: url("../img/charity/bg-charity768.jpg");
+	}
+
+	.webmoney-desktop {
+		display: none;
+	}
+
+	.webmoney-mobile {
+		display: flex;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media (min-width: 992px) { 
+
+	.home {
+		height: 500px;
+		background-image: url("../img/home/bg992.jpg");
+	}
+
+	.home-about {
+		background-image: url("../img/home/bg_home-about992.jpg");
+		height: 500px;
+	}
+
+	.donate {
+		height: 500px;
+		background-image: url("../img/donate/donate992.jpg");
+	}
+
+	.about {
+		height: 500px;
+		background-image: url("../img/about/bg-about992.jpg");
+	}
+
+	.projects {
+		height: 500px;
+		background-image: url("../img/projects/bg-projects992.jpg");
+	}
+
+	.charity {
+		height: 500px;
+		background-image: url("../img/charity/bg-charity992.jpg");
+	}
+
+	.webmoney-desktop {
+		display: none;
+	}
+
+	.webmoney-mobile {
+		display: flex;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media (min-width: 1200px) { 
+
+	.home {
+		height: 600px;
+		background-image: url("../img/home/bg1200.jpg");
+	}
+
+	.home-about {
+		background-image: url("../img/home/bg_home-about1200.jpg");
+		height: 400px;
+	}
+
+	.donate {
+		height: 600px;
+		background-image: url("../img/donate/donate1200.jpg");
+	}
+
+	.about {
+		height: 600px;
+		background-image: url("../img/about/bg-about1200.jpg");
+	}
+
+	.projects {
+		height: 600px;
+		background-image: url("../img/projects/bg-projects1200.jpg");
+	}
+
+	.charity {
+		height: 600px;
+		background-image: url("../img/charity/bg-charity1200.jpg");
+	}
+
+	.webmoney-desktop {
+		display: flex;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.webmoney-mobile {
+		display: none;
+	}
+
+	.home-card-deck {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.home-card {
+		max-width: 20rem;
+	}
+}
