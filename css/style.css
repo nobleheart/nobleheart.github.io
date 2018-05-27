@@ -9,14 +9,25 @@ p {
 	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+.animate-btn {
+	animation: green 3s linear infinite;
+}
+
+@keyframes green {
+    0% { background-color: #1a9f2a;}
+    50% { background-color: rgba(40,167,69,.6); }
+    100% { background-color: #1a9f2a; }
+   }
+
 .btn-primary.active {
-	box-shadow: 0 0 .2rem .2rem rgba(0,123,255,.5);
+	box-shadow: 0 0 0 .2rem rgba(0,123,255,.5);
 	font-weight: bold;
 }
 
 .btn-success.active {
-	box-shadow: 0 0 .2rem .2rem rgba(40,167,69,.5);
+	box-shadow: 0 0 0 .2rem rgba(40,167,69,.5);
 	font-weight: bold;
+	animation: none;
 }
 
 /* colors of pages */
@@ -58,11 +69,11 @@ p {
 }
 
 .home-border-top {
-	border-top: 1px solid rgba(29,163,242,0.2);
+	border-top: 3px double rgba(29,163,242,0.2);
 }
 
 .home-border-bottom {
-	border-bottom: 1px solid rgba(29,163,242,0.2);
+	border-bottom: 3px double rgba(29,163,242,0.2);
 }
 
 .profit-content {
@@ -84,11 +95,15 @@ p {
 	background-color: transparent;
 }
 
-.feature-card:hover {
+.feature-card:hover,
+.feature-card:focus,
+.home-card:hover,
+.home-card:focus {
 	background-color: rgba(29,163,242,0.04);
 }
 
-.feature-card h5 {
+.feature-card h5,
+.home-card .card-header {
 	border-bottom: 1px solid rgba(29,163,242,0.2);
 	padding-bottom: 1rem;
 }
