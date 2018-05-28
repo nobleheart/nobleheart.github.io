@@ -9,13 +9,36 @@ p {
 	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+.accordion .btn {
+	white-space: normal;
+	text-align: justify;
+}
+
+.plans {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+}
+
+.plans li {
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-image: url(../img/home/charity.png);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: left center;
+}
+
 .animate-btn {
-	animation: green 3s linear infinite;
+	animation: green 4s linear infinite;
 }
 
 @keyframes green {
     0% { background-color: #1a9f2a;}
-    50% { background-color: rgba(40,167,69,.6); }
+    50% { background-color: rgba(26,159,42,0.3); }
     100% { background-color: #1a9f2a; }
    }
 
@@ -99,7 +122,7 @@ p {
 .feature-card:focus,
 .home-card:hover,
 .home-card:focus {
-	background-color: rgba(29,163,242,0.04);
+	background-color: rgba(29,163,242,0.03);
 }
 
 .feature-card h5,
