@@ -20,15 +20,15 @@ p {
 	height:8px;
 	width:8px;
 	display:block;
-	border:2px solid #09669D;
+	border:3px solid #09669D;
 	border-right-width:0;
 	border-bottom-width: 0;
 	-ms-transform:rotate(-45deg);
 	-webkit-transform:rotate(-45deg);
 	transform:rotate(-45deg);
 	position:absolute;
-	right:20px;
-	top:18px
+	right:15px;
+	top:30px
 }
 
 .title_block:before{
@@ -36,15 +36,15 @@ p {
 	height:8px;
 	width:8px;
 	display:block;
-	border:2px solid #09669D;
+	border:3px solid #09669D;
 	border-right-width:0;
 	border-top-width:0;
 	-ms-transform:rotate(-45deg);
 	-webkit-transform:rotate(-45deg);
 	transform:rotate(-45deg);
 	position:absolute;
-	right:20px;
-	top:18px
+	right:15px;
+	top:30px
 }
 
 .btn-group-toggle .left.active:before {
@@ -52,7 +52,7 @@ p {
 	height:8px;
 	width:8px;
 	display:block;
-	border:2px solid white;
+	border:3px solid white;
 	border-right-width:0;
 	border-top-width:0;
 	-ms-transform:rotate(-45deg);
@@ -68,7 +68,7 @@ p {
 	height:8px;
 	width:8px;
 	display:block;
-	border:2px solid white;
+	border:3px solid white;
 	border-left-width:0;
 	border-top-width:0;
 	-ms-transform:rotate(-45deg);
@@ -84,7 +84,7 @@ p {
 	height:8px;
 	width:8px;
 	display:block;
-	border:2px solid white;
+	border:3px solid white;
 	border-right-width:0;
 	border-top-width:0;
 	-ms-transform:rotate(-45deg);
@@ -100,7 +100,7 @@ p {
 	height:8px;
 	width:8px;
 	display:block;
-	border:2px solid white;
+	border:3px solid white;
 	border-right-width:0;
 	border-bottom-width:0;
 	-ms-transform:rotate(-45deg);
@@ -161,6 +161,10 @@ p {
 
 .text-blue {
 	color: #09669D;
+}
+
+.bg-blue-opacity {
+	background-color: rgba(29,163,242,0.05);
 }
 
 .bg-violet {
