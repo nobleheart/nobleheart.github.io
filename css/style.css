@@ -123,10 +123,33 @@ p {
 	padding-left: 50px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-image: url(../img/home/charity.png);
 	background-repeat: no-repeat;
 	background-size: 40px;
 	background-position: left center;
+}
+
+.plans .donation {
+	background-image: url(../img/home/charity.png);
+}
+
+.plans .drugs {
+	background-image: url(../img/home/drugs.png);
+}
+
+.plans .globe {
+	background-image: url(../img/home/globe.png);
+}
+
+.plans .academy {
+	background-image: url(../img/home/academy.png);
+}
+
+.plans .build {
+	background-image: url(../img/home/build.png);
+}
+
+.plans .people {
+	background-image: url(../img/home/people.png);
 }
 
 .animate-btn {
@@ -137,7 +160,7 @@ p {
     0% { background-color: #1a9f2a;}
     50% { background-color: rgba(26,159,42,0.3); }
     100% { background-color: #1a9f2a; }
-   }
+}
 
 .btn-primary.active {
 	box-shadow: 0 0 0 .2rem rgba(0,123,255,.5);
